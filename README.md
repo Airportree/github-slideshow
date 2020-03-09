@@ -1,13 +1,32 @@
-# Your GitHub Learning Lab Repository for Introducing GitHub
+首先仔细阅读设计说明，了解建筑物的概况、位置、标高、材料要求、质量标准、施工注意事项以及一些特殊的技术要求，在思想上形成一个初步印象；
+接着要看平面图，了解房屋的平面形状、开间、进深、柱网尺寸，各种房间的安排和交通布置，以及门窗位置，对建筑物形成一个平面概念，为看立面图、剖面图打好基础；
+看立面图，以了解建筑物的朝向、层数和层高的变化，以及门窗、外装饰的要求等；
+看剖面图，以大体了解剖面部分的各部位标高变化和室内情况；
+最后看结构图，以了解平面图、立面图、剖面图等建筑图与结构图之间的关系，加深对整个工程的理解；
+另外，还必须根据平面图、立面图、剖面图等中的索引符号，详细阅读所指的大样图或节点图，做到粗细结合，大小交圈。
+只有循序渐进，才能理解设计意图，看懂设计图纸，也就是说一般应做到“先看说明后看图；顺序最好为平、立、剖；查对节点和大样；建筑结构对照读”，这样才能收到事半功倍的效果。
 
-Welcome to **your** repository for your GitHub Learning Lab course. This repository will be used during the different activities that I will be guiding you through. See a word you don't understand? We've included an emoji 📖 next to some key terms. Click on it to see its definition.
+新建工程需要把檐高、结构类型、抗震等级、设防烈度与室外地坪和0.00相对标高设置好
 
-Oh! I haven't introduced myself...
+楼层表看嵌固部位（有时结构说明里有）、混凝土强度等级（梁板本层的要往上一层看）。
 
-I'm the GitHub Learning Lab bot and I'm here to help guide you in your journey to learn and master the various topics covered in this course. I will be using Issue and Pull Request comments to communicate with you. In fact, I already added an issue for you to check out.
+檐高看立面图或设计说明，设计室外地坪到檐口的高度。
 
-![issue tab](https://lab.github.com/public/images/issue_tab.png)
+画图就按柱、墙（剪力墙）、梁、板顺序来，若为砌体墙则最后画。
 
-I'll meet you over there, can't wait to get started!
+在设计说明里看钢筋的搭接、保护层厚度、板分布筋形式、梁吊筋信息（若是梁配筋图上没有的话）、门窗洞口过梁构造信息......
 
-This course is using the :sparkles: open source project [reveal.js](https://github.com/hakimel/reveal.js/). In some cases we’ve made changes to the history so it would behave during class, so head to the original project repo to learn more about the cool people behind this project.
+画之前先看本图框旁的说明，以及所画构件对应的说明。
+
+大样图很重要，无论是在本张图纸内还是单独有大样图纸。墙身大样建筑与结构位置等不符时以建筑图为准
+
+箍筋节点图和柱截面图钢筋对不上时以截面图为准。
+
+梁中有原位标注，与架立筋会重叠的，那个位置就不需要布置架立筋了,架立筋是集中标注中括号里的。
+
+C8/C10@200表板中隔一布一。
+
+画完墙与构造柱后都要记得设拉结筋。
+
+栏板拉筋梅花形在节点设置中设置
+
